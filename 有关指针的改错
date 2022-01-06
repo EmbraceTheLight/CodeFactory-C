@@ -50,7 +50,7 @@ main()
     {
         scanf("%d", &num[i]);
     }
-    maxValue = FindMax(num, 10, &maxPos);//maxPos->&maxPos
+    maxValue = FindMax(num, 10, &maxPos);          //*maxPos->&maxPos
     printf("Max=%d, Position=%d\n", maxValue, maxPos);
 }
 int FindMax(int num[], int n, int* pMaxPos)
